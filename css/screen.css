@@ -208,49 +208,59 @@ label {
 
 main{
   background-color: #e3e2e2;
+  padding:1em;
+}
+
+h1,p{
+  display:block;
+  padding:1em;
+  width:95%;
+  resize: vertical;
+  margin:auto;  
+  text-align: center;
 }
 
 h1{
   background-color: #959595;
   color: white;
   font-family: Garamond, serif;
-  font-size: 1.5em;
   font-weight:bold;
-  text-align: center;
-  display:block;
-  padding: 0.75em;
-  width:95%;
-  resize:vertical;
-  margin:auto;
+  font-size:2em;
 }
 
 p{
-  background-color: #bdbaba;
-  font-family: Lucida Console, monospace;
-  font-size: 1em;
-  text-align: center;
-  padding: 0.76em;
-  width:95%;
+  background-color: #7f7f7f;
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #input-email{
-
+  background-color: #616161;
+  font-family: Garamond, serif;
+  display: block;
+  padding:1em;
+  width:95%;
+  margin:auto;
+  text-align: center;
 }
 
 #input-age-verification{
-
+  background-color: #b4b4b4;
+  font-family: Garamond, serif;
+  display: block;
+  padding:1em;
+  width:95%;
+  margin:auto;
+  text-align: center;
 }
-#label{
 
-}
 #input-submit{
-
-}
-#submit{
-
-}
-
-input[typw=submit]:hover{
-
+  background-color:  #616161;
+  font-family:monospace;
+  display: block;
+  padding:1em;
+  width:95%;
+  margin:auto;
+  text-align: center;
 }
 
