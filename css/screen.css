@@ -207,15 +207,30 @@ label {
 /* ===== STATE STYLES ======= */
 
 main{
-
+  background-color: #e3e2e2;
 }
 
 h1{
-
+  background-color: #959595;
+  color: white;
+  font-family: Garamond, serif;
+  font-size: 1.5em;
+  font-weight:bold;
+  text-align: center;
+  display:block;
+  padding: 0.75em;
+  width:95%;
+  resize:vertical;
+  margin:auto;
 }
 
 p{
-
+  background-color: #bdbaba;
+  font-family: Lucida Console, monospace;
+  font-size: 1em;
+  text-align: center;
+  padding: 0.76em;
+  width:95%;
 }
 
 #input-email{
